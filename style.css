@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+   
+    margin: 0px 5%;
+}
+.header{
+    margin-top: 10px;
+    display: flex;
+}
+.logo{
+    font-family: 'Fredoka One', cursive;
+
+}
+.logo h1{
+    font-size: 2.3rem;
+    margin: 0;
+}
+.logo h1 span:first-of-type{
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    /* margin-right: 5px; */
+    color: #264653;
+}
+.logo .span_2{
+    border-left: none;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    color: #e76f51;
+}
+.wid-25{
+width: 25%;
+}
+.wid-50{
+    width: 50%;
+    }
+.sb{
+    width: 80%;
+    height: 40px;
+    border-radius: 1px;
+    font-size: 18px;
+    color: #666;
+    border: 1PX Solid #ddd;
+    border-right: none;
+    padding: 10px;
+}
+.sb:focus{
+    outline: none;
+}
+.s-button{
+    width: 30px;
+    height: 40px;
+    border-radius: 1px;
+    border: 1px solid #ddd;
+    margin-left: -3px;
+    font-size: 18px;
+    color: #264653;
+    background-color: #fff;
+}
+.cmn_btn{
+    height: 40px;
+    border: 1px solid #ddd;
+    border-radius: 1px;
+    background-color: #fff;
+    min-width: 50px;
+    text-align: center;
+    color: #264653;
+}
+.selected_product{
+    text-align: right;
+}
+.cmn_btn span{
+    font-size: 16px;
+    font-weight: 800;
+}
+
+                                      /* ---------------banner area start------------ */
+
+.banner_area{
+    /* border: 1px solid grey; */
+    
+}
+
+.banner{
+    margin: 10px 5%;
+
+}
+.banner_heading{
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+    padding: 5px 20px;
+    background-color: #264653;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.types{
+    
+    list-style: none;
+}
+.types li{
+    font-weight: 900;
+    font-family: 'Noto Sans', sans-serif;
+    padding: 10px 5%;
+    border: 1px solid #264653;
+    border-top: none;
+}
