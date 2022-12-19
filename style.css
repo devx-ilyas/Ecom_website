@@ -7,8 +7,9 @@
 
 /* lxdgsklgasklfgSdgklasfa'rkga'era */
 .wrapper{
-   
+   min-height: 70px;
     margin: 0px 5%;
+    border-bottom: 1px solid #264653;
 }
 .header{
     margin-top: 10px;
@@ -91,7 +92,9 @@ width: 25%;
 }
 
 .banner{
+    height: 395px;
     margin: 10px 5%;
+    display: flex;
 
 }
 .banner_heading{
@@ -114,4 +117,16 @@ width: 25%;
     padding: 10px 5%;
     border: 1px solid #264653;
     border-top: none;
+}
+
+.top-product{
+    display: flex;
+}
+.left-50{
+    border: 1px solid red;
+    width: 50%;
+}
+.right-50{
+    border: 1px solid blue;
+    width: 50%;
 }
