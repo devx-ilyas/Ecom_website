@@ -124,17 +124,18 @@ width: 25%;
 }
 .left-50{
     position: relative;
-    border: 1px solid red;
     width: 65%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .right-50{
-    border: 1px solid blue;
+    display: flex;
+    flex-direction: column;
     width: 35%;
 }
 .left-50 img{
+    border: 1px solid white;
     width: 100%;
     height: 100%;
     
@@ -143,4 +144,34 @@ width: 25%;
     position: absolute;
     bottom: 50px;
     
+}
+
+.right-top{
+    position: relative;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-bottom{
+    position: relative;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-50 img{
+    border: 1px solid white;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.right-50 h2{
+    color: #ddd;
+    position: absolute;
+    bottom: 15%;
 }
